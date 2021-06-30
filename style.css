@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: salmon;
+}
+
+header {
+    background-color: yellow;
+}
+
+main {
+    display: flex
+}
+
+section {
+    border: 1px solid gold;
+    /* display and justify content will center script */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    margin-top: 10px;
+    width: 70%
+}
+
+.starter { 
+    background-color: blue;
+    height: 10vh;
+    float: center
+}
+
+aside { 
+    border: 1px solid green;
+    width: 30%;
+}
+
+aside button {
+    float: right;
+}
